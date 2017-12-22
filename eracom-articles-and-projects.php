@@ -3,7 +3,7 @@
 Plugin Name: Eracom Articles and Projects
 Plugin URI: https://github.com/eracom/articles-and-projects
 Description: Plugin de fonctionalité pour cumuler les articles, Projets (Jetpack) et Produits (WooCommerce) sur la page des articles.
-Version: 0.1
+Version: 0.2
 Author: Manuel Schmalstieg
 Author URI: http://ms-studio.net
 GitHub Plugin URI: https://github.com/eracom/articles-and-projects
