@@ -18,7 +18,7 @@ GitHub Plugin URI: https://github.com/eracom/articles-and-projects
  
 function eracom_mix_articles_projects( $query ) {
 
-        if ( $query->is_archive() ) {
+        if ( $query->is_archive() && !is_admin() ) {
 
            	$query->set( 'post_type', array(
            		'post', 
