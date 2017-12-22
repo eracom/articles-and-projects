@@ -1,11 +1,12 @@
 <?php
 /*
 Plugin Name: Eracom Articles and Projects
-Plugin URI: https://github.com/eracom/
+Plugin URI: https://github.com/eracom/articles-and-projects
 Description: Plugin de fonctionalité pour cumuler les articles, Projets (Jetpack) et Produits (WooCommerce) sur la page des articles.
 Version: 0.1
 Author: Manuel Schmalstieg
 Author URI: http://ms-studio.net
+GitHub Plugin URI: https://github.com/eracom/articles-and-projects
 */
 
 /**
@@ -16,14 +17,25 @@ Author URI: http://ms-studio.net
  */
  
 function eracom_mix_articles_projects( $query ) {
-        if ( $query->is_year() ) {
 
-           	$query->set( 'post_type', array('post', 'portfolio', 'product'));
+        if ( $query->is_archive() ) {
+
+           	$query->set( 'post_type', array(
+           		'post', 
+           		'portfolio',
+           		'jetpack-portfolio',
+           		'product'
+           	));
             return $query;
             
         } else if ( $query->is_home() && $query->is_main_query() ) {
         
-        	$query->set( 'post_type', array('post', 'portfolio', 'product'));
+        	$query->set( 'post_type', array(
+        		'post', 
+        		'portfolio',
+        		'jetpack-portfolio',
+        		'product'
+        	));
         	return $query;
 					
         }
