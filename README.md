@@ -8,17 +8,17 @@ De nombreux thèmes - dont Coup – séparent de manière stricte les Articles e
 
 ## Que fait cette extension ?
 
-Techniquement, cette extension modifie la requête par défaut de WordPress pour lister non seulement les **Articles** (comportement par défaut), mais également les contenus suivants:
+Techniquement, cette extension modifie la requête par défaut de WordPress pour lister non seulement les **articles** (comportement par défaut), mais également les contenus suivants:
 
-- **portfolio** : contenu spécial Portfolio, utilisé par certains thèmes, p.ex. Eris.
-- **jetpack-portfolio** : contenu Portfolio de l'extension Jetpack, utilisé par de nombreux thèmes (dont Coup, Deppo...).
+- **portfolio** : contenu spécial Portfolio, utilisé par certains thèmes, p.ex. [Eris](https://cours-web.ch/theme-eris/).
+- **jetpack-portfolio** : contenu Portfolio de l'extension Jetpack, utilisé par de nombreux thèmes (dont Coup, [Deppo](https://cours-web.ch/theme-deppo/)...).
 - **product** : contenu de l'extension WooCommerce.
 
 ## Sur quelles pages agit cette extension ?
 
 La requête principale sera modifiée uniquement pour les pages suivantes:
 
-- Sur la **"Page des articles"**. [Voir cours web](https://cours-web.ch/wp/structure#page-daccueil-statique--page-des-articles) pour plus d'explications.
+- Sur la **"Page des articles"**. [Voir le support de cours](https://cours-web.ch/wp/structure#page-daccueil-statique--page-des-articles) pour plus d'explications.
 - Sur toutes les pages **"Archives"** – les archives par date, par catégorie, par étiquette, etc.
 
 ***
