@@ -1,6 +1,6 @@
 # Eracom Articles and Projects
 
-Une extension de fonctionalité pour cummuler les articles, Projets (Jetpack) et Produits (WooCommerce) sur la page des articles.
+Une extension de fonctionalité pour cumuler les articles, Projets (Jetpack) et Produits (WooCommerce) sur la page des articles.
 
 Cette extension a été conçue pour l'utilisation avec le thème [Coup](https://themeskingdom.com/wordpress-themes/coup-architects-blog-portfolio-theme/), de Themes Kingdom, sur le site [teodolci.ch](http://teodolci.ch/) ... mais elle pourra être utile dans de nombreux cas de figure.
 
