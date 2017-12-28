@@ -23,4 +23,4 @@ La requête principale sera modifiée uniquement pour les pages suivantes:
 
 ***
 
-Cette extension a été développée durant la matinée du 22 décembre 2017, dans le cadre du [cours Programmation Web](https://cours-web.ch/) à l'Eracom, pour utilisation .
+Cette extension a été développée durant la matinée du 22 décembre 2017, dans le cadre du [cours Programmation Web](https://cours-web.ch/) à l'Eracom.
